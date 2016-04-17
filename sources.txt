@@ -1,0 +1,7 @@
+# how to compile proto files
+protoc -I=./ --cpp_out=./ ./message.proto
+
+
+# simple example of using ProtoBufs with 0mq
+http://conanio.readthedocs.org/en/latest/examples/zmq_protobuf.html
+
